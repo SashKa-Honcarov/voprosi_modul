@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Тест: Включення в ООП</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="start-screen">
+      <h1>Тест на тему: "Включення"</h1>
+      <button id="start-btn">Розпочати</button>
+    </div>
+
+    <div id="quiz-screen" class="hidden">
+      <div id="question-container">
+        <div id="question"></div>
+        <div id="answer-buttons" class="btn-grid"></div>
+      </div>
+      <button id="next-btn" class="next-btn hidden">Наступне питання</button>
+    </div>
+
+    <div id="result-screen" class="hidden">
+      <h2>Результати</h2>
+      <p id="result-score"></p>
+      <p id="result-time"></p>
+      <div class="menu-buttons">
+        <button id="restart-btn">Пройти знову</button>
+        <button id="exit-btn">Вийти</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
